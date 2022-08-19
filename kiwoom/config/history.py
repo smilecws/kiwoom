@@ -86,7 +86,7 @@ def is_date(date):
     except Exception:  # TypeError, ValueError
         print(f"'date' must be in form 'YYYYMMDD' with appropriate value, not {date}.")
         return False
-    return True
+    return True 
 
 
 def is_market(code):
@@ -113,7 +113,7 @@ def is_sector(code):
 
 
 def get_code_type(code):
-    """
+    """ 
     Returns whether code belongs to stock or sector.
     """
     if len(code) == SECTOR_CODE_LEN:
